@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Edit_Delete_Item"
-    android:background="@drawable/background4">
+    android:background="@color/dark_gray">
 
     <TextView
         android:gravity="center"
         android:id="@+id/labelPlayer"
         android:text="@string/contact_details"
-        android:textColor="#4E342E"
-        android:textStyle="bold"
+            style="@style/TextColor"
         android:paddingBottom="5dp"
         android:paddingTop="5dp"
         android:layout_width="wrap_content"
@@ -25,10 +24,9 @@
             android:id="@+id/label_F_Name"
             android:text="@string/first_name"
             android:paddingLeft="5dp"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#4E342E"
+                style="@style/TextColor"
             android:textSize="20sp" />
 
         <EditText
@@ -43,10 +41,9 @@
             android:id="@+id/label_L_Name"
             android:text="@string/last_name"
             android:paddingLeft="50dp"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#4E342E"
+                style="@style/TextColor"
             android:textSize="20sp" />
 
         <EditText
@@ -65,10 +62,9 @@
             android:id="@+id/labelPhone"
             android:text="@string/phone_number"
             android:paddingLeft="5dp"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#4E342E"
+                style="@style/TextColor"
             android:textSize="20sp" />
 
         <EditText
@@ -83,10 +79,9 @@
             android:id="@+id/labelEmail"
             android:text="@string/email"
             android:paddingLeft="50dp"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#4E342E"
+                style="@style/TextColor"
             android:textSize="20sp" />
 
         <EditText
@@ -105,10 +100,9 @@
             android:id="@+id/labelNote"
             android:text="@string/note"
             android:paddingLeft="5dp"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#4E342E"
+                style="@style/TextColor"
             android:textSize="20sp" />
 
         <EditText
@@ -135,10 +129,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:backgroundTint="#4E342E"
             android:text="@string/update"
-            android:textColor="#ffffff"
-            android:textSize="20sp"
+            style="@style/TextColor"
             android:textStyle="bold" />
 
         <Button
@@ -149,10 +141,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
-            android:backgroundTint="#4E342E"
             android:text="@string/delete"
-            android:textColor="#ffffff"
-            android:textSize="20sp"
+                style="@style/TextColor"
             android:textStyle="bold" />
 
     </LinearLayout>
