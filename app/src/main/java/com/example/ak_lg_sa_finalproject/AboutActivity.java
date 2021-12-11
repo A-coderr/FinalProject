@@ -42,7 +42,7 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     /**
-     * this method determine with option of the menu is selected
+     * this method determine which option of the menu is selected
      * @param item
      * @return selected item
      */
