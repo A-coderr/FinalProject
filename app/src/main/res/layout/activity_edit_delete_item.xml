@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_Delete_Item"
+    android:background="@drawable/background4">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/labelPlayer"
+        android:text="@string/contact_details"
+        android:textColor="#4E342E"
+        android:textStyle="bold"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_F_Name"
+            android:text="@string/first_name"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4E342E"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etFName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/label_L_Name"
+            android:text="@string/last_name"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4E342E"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etLName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelPhone"
+            android:text="@string/phone_number"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4E342E"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelEmail"
+            android:text="@string/email"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4E342E"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/labelNote"
+            android:text="@string/note"
+            android:paddingLeft="5dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4E342E"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4E342E"
+            android:text="@string/update"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#4E342E"
+            android:text="@string/delete"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</TableLayout>

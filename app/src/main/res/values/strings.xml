@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AK_LG_SA_FinalProject</string>
+
+    <string name="welcome_message">Welcome!</string>
+    <string name="description">Make a collection of your family and friends contact information,
+        add pictures and notes and a lot more!</string>
+
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="first_name">First Name :</string>
+    <string name="last_name">Last Name:</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="email">Email:</string>
+    <string name="note">Note:</string>
+    <string name="developers">Developed By:</string>
+    <string name="dev1">Anzhelika Kostyuk</string>
+    <string name="dev2">Lirjeta Gashi</string>
+    <string name="dev3">Sara Asefi</string>
+    <string name="about">About Us</string>
+    <string name="back">Back</string>
+    <string name="course">PROG3210-Programming Mobile Application</string>
+    <string name="final_project">Final Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
